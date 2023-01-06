@@ -9,7 +9,7 @@ while True:
     question = input("Ask a question in such a way that the answer is only 'yes' or 'no'! Enter your question: ")
     print(random.choice(answer))
     again = input("Would you like to ask one more question? y - 'yes', n - 'no' ")
-    if again == 'y':
+    if again.lower() == 'y':
         continue
     else:
         print("Come back if you have any questions! See you '🔮'")
